@@ -1,3 +1,6 @@
+
+
+
 .header-logo {
     height: 5vmin;
     pointer-events: none;
@@ -5,13 +8,13 @@
   
   @media (prefers-reduced-motion: no-preference) {
     .header-logo {
-      animation: App-logo-spin infinite 20s linear;
+      animation: header-logo-spin infinite 20s linear;
     }
   }
   
   .header-header {
     background-color: #282c34;
-    min-height: 5vh;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +27,7 @@
     color: #61dafb;
   }
   
-  @keyframes App-logo-spin {
+  @keyframes header-logo-spin {
     from {
       transform: rotate(0deg);
     }
