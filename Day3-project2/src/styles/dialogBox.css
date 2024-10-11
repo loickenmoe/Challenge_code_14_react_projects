@@ -1,0 +1,44 @@
+.dialog-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    /* Couleur par défaut */
+    transition: background-color 0.3s ease;
+    /* Transition douce */
+}
+
+.dialog-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dialog-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.dialog-container button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a9add;
+    color: white;
+    cursor: pointer;
+}
+
+.dialog-container button:hover {
+    background-color: #0056b3;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
